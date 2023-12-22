@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Astro Library</title>
+
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+
+	<!-- Favicons -->
+  	<link href="assets/img/favicon.png" rel="icon">
+  	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  	<!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  	<!-- Vendor CSS Files -->
+  	<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+  	<!-- Template Main CSS File -->
+  	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- ======= Header ======= -->
+  	<header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid">Astro<span>Rary</span></a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="profile.html">Profile</a></li>
+          <li><a class="nav-link scrollto" href="public service.html">Public Service</a></li>
+          <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto" href="recomendation.html">Recomendation</a></li>
+          <li><a class="nav-link scrollto" href="digitalcollection.html">Digital Collection</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Astro Library</span></h2>
+          <p class="animate__animated fanimate__adeInUp">Welcome to our Online Library, where the adventure of literacy begins! Celebrating the magic of words, we invite you to explore our rich and diverse collection of books. From classics to the latest releases, the world of knowledge is at your fingertips.Enjoy your literary journey with us. Explore, read, and discover an unlimited world in our library. Happy exploring!</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Our <span>Vission</span></h2>
+          <p class="animate__animated animate__fadeInUp">
+		      Embarking on a mission to cultivate an educated, creative, and interconnected society, we are committed to being an intellectual resource that inspires. In the midst of the fast-paced information age, we believe that the library is a center of knowledge that can lead to positive change.
+
+		      Through an innovative online library, we intend to create a community of learners focused on personal growth and collaboration. We are confident that by providing easy and stimulating access, we can pave the way towards a smarter, more creative, and supportive society.</p>
+          <a href="profile.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">For <span>You</span></h2>
+          <p class="animate__animated animate__fadeInUp">"In every book, there is a new adventure waiting to be explored. Discover your story in our library."</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  	</section><!-- End Hero -->
+
+  	<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>AstroRary</h2>
+          <p>Profile</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6 pt-4 pt-lg-0">
+          	<h2>Our Vission</h2>
+            <p>
+              To be a pioneer in opening the gates of knowledge, we strive to present the world of literacy to all segments of society. By providing easy access, we are committed to fostering a love of reading and stimulating curiosity, helping each individual discover the wonders of the world through words.
+            </p>
+            <a href="profile.html" class="btn-learn-more">Learn More</a>
+          </div>
+          <div class="col-lg-6">
+            <h2>Our Mission</h2>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Provide an innovative, user-friendly, and easily accessible online library platform to ensure that everyone can explore the world of literacy without barriers.</li>
+              <li><i class="ri-check-double-line"></i>Offer quick and up-to-date access to various sources of knowledge, including classic and contemporary works, to meet diverse interests and reader needs.</li>
+              <li><i class="ri-check-double-line"></i>Adopt cutting-edge technology and continue to innovate to maintain the relevance and quality of our online library services.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Head Of AstroRary</h3>
+            <h2> "Welcome to Astrorary!"</h2>
+            <p>A warm welcome to Astro Library – your digital oasis of knowledge and inspiration! As the CEO, I'm thrilled to have you join our community. Whether you're here to explore, learn, or connect, we're excited to be a part of your journey.
+            <br>Happy reading!
+            <br>
+            <br>
+            <br>Agung Choi
+            <br>CEO, Astro Library</p>
+          </div>
+          <div class="col-lg-3 img-fluid zoom-in-left">
+            <img class="img" src="assets/img/siwon.png" height="300" width="200">
+          </div>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>We Offer</h2>
+          <p>Public Services</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <div class="icon"><i class="bi bi-people" style="color: #BA9378;"></i></div>
+              <h4 class="title"><a href="public service.html">K-OL</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-book" style="color: #BA9378;"></i></div>
+              <h4 class="title"><a href="public service.html">Family Literasi</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-boombox" style="color: #BA9378;"></i></div>
+              <h4 class="title"><a href="public service.html">Podcast</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+<section id="recomendation" class="recomendation">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Recomendation</h2>
+          <p>BOOK WE'VE RECOMENDATION</p>
+        </div>
+
+        <div class="container-fluid project">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="assets/img/book/N-4.png" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Novel</h4>
+                                        <p class="m-0 text-white">Best Seller Novel</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="assets/img/bOOK/EN-7.png" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Ensiklopedie</h4>
+                                        <p class="m-0 text-white">Ensiklopedie Laut</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="assets/img/book/N-3.png" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Novel</h4>
+                                        <p class="m-0 text-white">Best Seller Novel</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="assets/img/book/PU-12.png" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Knowledge</h4>
+                                        <p class="m-0 text-white">Nasihat</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="assets/img/book/PU-11.png" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Knowledge</h4>
+                                        <p class="m-0 text-white">Marketing Analysis</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="assets/img/book/EN-9.png" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Ensiklopedie</h4>
+                                        <p class="m-0 text-white">Ensiklopedie Planet</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Testimonials</h2>
+          <p>What they are saying about us</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Saya benar-benar terkesan dengan perpustakaan online ini! Koleksi bukunya begitu luas, mencakup berbagai genre dan penulis. Proses pencarian sangat cepat, dan antarmuka pengguna yang intuitif membuatnya mudah untuk menemukan buku yang diinginkan. Saya menemukan banyak buku favorit dan penulis baru yang menarik. Layanan peminjaman online juga sangat praktis, memungkinkan saya membaca kapan saja dan di mana saja. Saya sangat merekomendasikan perpustakaan ini kepada semua pecinta buku yang ingin mendapatkan pengalaman membaca yang nyaman dan terjangkau <br> <br>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimoni1.jpg" class="testimonial-img" alt="">
+                <h3>Melinda Rahmawati</h3>
+                <h4>Influencer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Saya tidak bisa lebih bahagia dengan perpustakaan online ini! Akses ke ribuan buku langsung dari kenyamanan rumah saya adalah mimpi yang jadi kenyataan. Fitur pencarian yang canggih membantu saya menemukan buku dengan cepat, sementara tampilan yang bersih membuat navigasi menjadi sangat mudah. Layanan peminjaman dan pengembalian yang efisien memberikan fleksibilitas luar biasa, sehingga saya dapat membaca buku sesuai jadwal saya. Pengalaman membaca digital di perpustakaan ini benar-benar mengubah cara saya menikmati literatur. Saya sangat bersyukur menemukan perpustakaan online ini dan akan tetap setia sebagai anggotanya. <br>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimoni2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Sulistyo</h3>
+                <h4>Accounting</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Pengalaman saya dengan perpustakaan online ini luar biasa! Dengan koleksi buku yang terus diperbarui, saya selalu menemukan bacaan yang sesuai dengan minat saya. Sistem pencariannya sangat efisien, memberikan hasil yang akurat dalam sekejap mata. Saya suka kemudahan peminjaman dan pengembalian buku, semuanya dapat diatur secara online tanpa repot. Kemampuan untuk membaca buku dalam format digital membuat hidup saya lebih praktis, dan integrasinya dengan perangkat e-reader saya sangat mengagumkan. Perpustakaan online ini benar-benar membawa pengalaman membaca saya ke tingkat berikutnya. <br>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimoni3.jpg" class="testimonial-img" alt="">
+                <h3>Andika Hanif Saputra</h3>
+                <h4>Atlet</h4>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Apa keuntungan menggunakan perpustakaan online?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Perpustakaan online memberikan akses mudah dan cepat ke ribuan buku tanpa harus meninggalkan rumah. Pengguna dapat menelusuri koleksi yang luas, melakukan peminjaman, dan membaca buku secara digital atau mendownloadnya.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question"> Bagaimana cara mencari buku di perpustakaan online?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Pencarian buku di perpustakaan online dapat dilakukan melalui fitur pencarian yang canggih. Pengguna dapat memasukkan judul buku, pengarang, atau kata kunci terkait untuk menemukan buku yang diinginkan dengan mudah.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Apakah perpustakaan online menyediakan layanan peminjaman?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+               Ya, perpustakaan online umumnya menyediakan layanan peminjaman. Pengguna dapat meminjam buku secara digital untuk dibaca dalam periode waktu tertentu. Proses peminjaman dan pengembalian buku biasanya mudah dan dapat dilakukan secara online.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Apakah perpustakaan online cocok untuk pengguna e-reader?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+               Iya, banyak perpustakaan online mendukung pengguna e-reader. Pengguna dapat dengan nyaman membaca buku dalam format digital dan mengintegrasikannya dengan berbagai jenis perangkat e-reader untuk pengalaman membaca yang lebih menyenangkan.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Bisakah saya mengakses perpustakaan online melalui perangkat seluler?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Ya, perpustakaan online biasanya dapat diakses melalui aplikasi seluler atau melalui situs web yang dioptimalkan untuk perangkat seluler. Pengguna dapat menikmati kemudahan akses dan membaca buku di mana saja dan kapan saja melalui perangkat mobile mereka.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Apakah perpustakaan online menyediakan buku dalam berbagai genre?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+               Ya, perpustakaan online biasanya memiliki koleksi buku yang mencakup berbagai genre, mulai dari fiksi hingga nonfiksi, sains hingga sastra. Pengguna dapat menemukan buku sesuai dengan minat pribadi mereka dan mengeksplorasi genre baru dengan mudah.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Librarian</h2>
+          <p>Our Hardworking Librarian</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/team/pustakawan3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Hendra Darmawan</h4>
+                <span>Librarian</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/pustakawan2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Tania Azani</h4>
+                <span>Librarian</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/pustakawan4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amir Yusuf</h4>
+                <span>Librarian</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/pustakawan1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sekar Hasibuan</h4>
+                <span>Librarian</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2>AstroRary</h2>
+                </div>
+
+                <p>"In every book, there is a new adventure waiting to be explored. Discover your story in our library."</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <div class="footer-contacts">
+                  <p>Contact us if you have any questions or problem. Astrorary ready to help your problem.</p>
+                  <p><span>Tel:</span> 0812-3456-7890</p>
+                  <p><span>Email:</span> astrorary@gmail.com</p>
+                  <p><span>Working Hours:</span> 9am-3pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Location</h4>
+                <div class="flicker-img">
+                  <iframe src="https://www.google.com/maps/d/embed?mid=1xryomXrDfnwHQihQIDV6fw9Id9M&ehbc=2E312F" width="340" height="180"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>AstroRary</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  	<!-- Vendor JS Files -->
+  	<script src="assets/vendor/aos/aos.js"></script>
+  	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  	<script src="assets/vendor/php-email-form/validate.js"></script>
+
+  	<!-- Template Main JS File -->
+  	<script src="assets/js/main.js"></script>
+</body>
+</html>
